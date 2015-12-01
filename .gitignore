@@ -1,0 +1,11 @@
+node_modules
+emojione-loader
+.DS_Store
+.tern-port
+gin-bin
+npm-debug.log
+public/js/bundle.js
+public/js/bundle.js.map
+*.save
+crud
+config/app.toml

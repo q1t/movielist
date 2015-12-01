@@ -1,0 +1,134 @@
+@import "../node_modules/github-markdown-css/github-markdown.css";
+body {
+    background: #808080;
+    background-image: url('/public/img/stardust/stardust.png');
+    font-family: Lato, sans-serif;
+    font-size: 15px;
+    margin: 0;
+}
+/* always present */
+img.emojione {
+    height: 24px;
+    width: 24px;
+}
+svg.emojione {
+    height: 24px;
+    width: 24px;
+}
+.expand-transition {
+    transition: max-height 1s ease-out;
+    overflow: hidden;
+    max-height: 2000px;
+}
+
+/* .expand-enter defines the starting state for entering */
+/* .expand-leave defines the ending state for leaving */
+.expand-enter {
+    max-height:0;
+}
+.expand-leave {
+   max-height: 0;
+}
+.markdown-body {
+    font-family: Lato, sans-serif;
+    padding: 20px;
+}
+.container {
+    lost-center: 760px;
+    background: #fff;
+    /* border: 1px solid #6f6f6f; */
+    border-top: none;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.top-menu {
+    border-bottom: 2px solid;
+    border-color: color(#0074D9 shade(11%));
+    height: 60px;
+    padding: 0;
+    margin: 0;
+}
+
+/* .top-menu */
+/* .title { */
+/*     text-align: center; */
+/*     padding: 10px; */
+/*     font-weight: bold; */
+/*     background: #a9a; */
+/*     color: #fff; */
+/*     border-bottom: 1px solid #787; */
+/* } */
+
+.top-menu
+.nav-bar {
+    /* border-bottom: 1px solid #898; */
+    height: 100%;
+}
+
+/* .container */
+.top-menu
+.nav-bar 
+.links {
+    /*     text-align: justify; */
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background: blue;
+}
+.top-menu
+.nav-bar 
+.links 
+.github-icon {
+    font-size: 2em;
+    line-height: 1.4;
+}
+
+/* .container
+.nav-bar 
+.links:after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+} */
+
+.top-menu
+.nav-bar
+.links
+.link {
+    line-height: 4;
+    display: inline-block;
+}
+.top-menu
+.nav-bar
+.links
+.link
+a {
+    display: block;
+    padding: 0 20px 0 20px;
+    text-decoration: none;
+    color: white;
+    /* border-bottom: 1px solid #a1a1a1; */
+    margin: 0;
+}
+.top-menu
+.nav-bar
+.links
+.link:hover {
+    background: navy;
+}
+.top-menu
+.nav-bar
+.links
+.link
+a:hover {
+    border-color: white;
+}
+
+.container
+.content {
+    font-size: 1.2em;
+}

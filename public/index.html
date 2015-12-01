@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="//brick.a.ssl.fastly.net/Lato:200,400,700,400i">
+  <meta charset="UTF-8"/>
+  <title>Watch list</title>
+</head>
+<body>
+  <div id="app">
+    <div class="top-menu">
+      <div class="nav-bar">
+        <ul class="links">
+          <li class="link"><a v-link="{ name: 'home'}" >Home</a></li>
+          <li v-if="loggedin" class="link"><a v-link="{ name: 'lists'}" >My lists</a></li>
+          <li v-if="loggedin" class="link"><a href="#"
+            @click="logoutUser()"><span>Logout, {{ userInf().username }}
+            </span></a></li>
+            <li class="link"><a href="https://github.com/sysashi/mymovieslist"><i class="fa fa-github fa-lg github-icon"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="container">
+        <div class="content">
+          <router-view :loggedin="loggedin"></router-view>
+        </div>
+      </div>
+    </div>
+    <script src="/public/js/bundle.js"></script>
+    <script src="http://localhost:35729/livereload.js"></script>
+  </body>
+  </html>
