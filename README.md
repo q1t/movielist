@@ -7,7 +7,7 @@
 - [Postgresql](http://www.postgresql.org)
 
 ##### *Build*
-You have to install at least Go to serve the static files along with the database - sqlite or postgresql.
+You have to install at least Go to serve the static files along with the database postgresql.
 
 Set the variables at config/app.toml
 ```
