@@ -7,5 +7,5 @@ npm-debug.log
 public/js/bundle.js
 public/js/bundle.js.map
 *.save
-crud
+movielist
 config/app.toml

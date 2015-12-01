@@ -11,8 +11,8 @@ import (
 
 	"golang.org/x/crypto/bcrypt"
 
-	"github.com/q1t/mymovieslist/db"
-	"github.com/q1t/mymovieslist/middleware"
+	"github.com/q1t/movielist/db"
+	"github.com/q1t/movielist/middleware"
 
 	"html/template"
 

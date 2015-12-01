@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"log"
 
-	db "github.com/q1t/mymovieslist/db"
+	db "github.com/q1t/movielist/db"
 	"github.com/spf13/viper"
 )
 
